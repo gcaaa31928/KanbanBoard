@@ -44,7 +44,8 @@ namespace WindowsFormsApplication1
 
         public void Init()
         {
-            if(_model.IsRegister())
+            string id = "";
+            if(_model.IsRegister(out id))
             _model.Init();
         }
         public void IsRegister()

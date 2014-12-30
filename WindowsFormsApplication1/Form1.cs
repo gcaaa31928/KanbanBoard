@@ -40,5 +40,16 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void _todoLabel_DoubleClick(object sender, EventArgs e)
+        {
+            Sticky sticky = (new Sticky());
+            //sticky.Location = new System.Drawing.Point(0, 0);
+            sticky.Location = this._todoGroupBox.Location;
+            this.Controls.Add(sticky);
+            sticky.BringToFront();
+            //sticky.();
+           // _stickies.Add(sticky);
+        }
     }
 }
