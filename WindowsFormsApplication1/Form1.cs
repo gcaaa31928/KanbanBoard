@@ -29,6 +29,7 @@ namespace WindowsFormsApplication1
         {
             _registerToolStripButton.Enabled = _presentationModel.IsRegisterButtonEnable;
             _idToolStripTextBox.Text = _presentationModel.IdText;
+            _nickNameToolStripTextBox.Text = _presentationModel.NickNameText;
         }
 
         private void _menuToolStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -36,9 +37,36 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void _registerToolStripButton_Click(object sender, EventArgs e)
+        /// <summary>
+        /// 按下register按鈕
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void RegisterToolStripButtonClick(object sender, EventArgs e)
+        {
+            _presentationModel.Register();
+            RefreshControls();
+        }
+
+        private void NewProjectToolStripButtonClick(object sender, EventArgs e)
+        {
+            _presentationModel.CreateProject();
+            RefreshControls();
+        }
+
+        private void AddButtonClick(object sender, EventArgs e)
         {
 
+        }
+
+        private void NickNameToolStripTextBoxClick(object sender, EventArgs e)
+        {
+            _presentationModel.NickNameText = _nickNameToolStripTextBox.Text;
+        }
+
+        private void NickNameToolStripTextBoxTextChanged(object sender, EventArgs e)
+        {
+            _presentationModel.NickNameText = _nickNameToolStripTextBox.Text;
         }
     }
 }

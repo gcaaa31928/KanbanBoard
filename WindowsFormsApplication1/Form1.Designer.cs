@@ -80,6 +80,7 @@
             this._newProjectToolStripButton.Name = "_newProjectToolStripButton";
             this._newProjectToolStripButton.Size = new System.Drawing.Size(74, 22);
             this._newProjectToolStripButton.Text = "New Project";
+            this._newProjectToolStripButton.Click += new System.EventHandler(this.NewProjectToolStripButtonClick);
             // 
             // toolStripSeparator1
             // 
@@ -96,6 +97,8 @@
             // 
             this._nickNameToolStripTextBox.Name = "_nickNameToolStripTextBox";
             this._nickNameToolStripTextBox.Size = new System.Drawing.Size(100, 25);
+            this._nickNameToolStripTextBox.Click += new System.EventHandler(this.NickNameToolStripTextBoxClick);
+            this._nickNameToolStripTextBox.TextChanged += new System.EventHandler(this.NickNameToolStripTextBoxTextChanged);
             // 
             // _registerToolStripButton
             // 
@@ -105,7 +108,7 @@
             this._registerToolStripButton.Name = "_registerToolStripButton";
             this._registerToolStripButton.Size = new System.Drawing.Size(56, 22);
             this._registerToolStripButton.Text = "Register";
-            this._registerToolStripButton.Click += new System.EventHandler(this._registerToolStripButton_Click);
+            this._registerToolStripButton.Click += new System.EventHandler(this.RegisterToolStripButtonClick);
             // 
             // toolStripSeparator2
             // 
@@ -160,6 +163,7 @@
             this._addButton.TabIndex = 2;
             this._addButton.Text = "Add Member";
             this._addButton.UseVisualStyleBackColor = true;
+            this._addButton.Click += new System.EventHandler(this.AddButtonClick);
             // 
             // _onlineGroupBox
             // 
