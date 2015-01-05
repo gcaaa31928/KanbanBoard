@@ -82,6 +82,7 @@ namespace WindowsFormsApplication1
             this._newProjectToolStripButton.Name = "_newProjectToolStripButton";
             this._newProjectToolStripButton.Size = new System.Drawing.Size(97, 24);
             this._newProjectToolStripButton.Text = "New Project";
+            this._newProjectToolStripButton.Click += new System.EventHandler(this.NewProjectToolStripButtonClick);
             // 
             // toolStripSeparator1
             // 
@@ -97,7 +98,9 @@ namespace WindowsFormsApplication1
             // _nickNameToolStripTextBox
             // 
             this._nickNameToolStripTextBox.Name = "_nickNameToolStripTextBox";
-            this._nickNameToolStripTextBox.Size = new System.Drawing.Size(132, 27);
+            this._nickNameToolStripTextBox.Size = new System.Drawing.Size(100, 25);
+            this._nickNameToolStripTextBox.Click += new System.EventHandler(this.NickNameToolStripTextBoxClick);
+            this._nickNameToolStripTextBox.TextChanged += new System.EventHandler(this.NickNameToolStripTextBoxTextChanged);
             // 
             // _registerToolStripButton
             // 
@@ -107,7 +110,7 @@ namespace WindowsFormsApplication1
             this._registerToolStripButton.Name = "_registerToolStripButton";
             this._registerToolStripButton.Size = new System.Drawing.Size(71, 24);
             this._registerToolStripButton.Text = "Register";
-            this._registerToolStripButton.Click += new System.EventHandler(this._registerToolStripButton_Click);
+            this._registerToolStripButton.Click += new System.EventHandler(this.RegisterToolStripButtonClick);
             // 
             // toolStripSeparator2
             // 
@@ -167,6 +170,7 @@ namespace WindowsFormsApplication1
             this._addButton.TabIndex = 2;
             this._addButton.Text = "Add Member";
             this._addButton.UseVisualStyleBackColor = true;
+            this._addButton.Click += new System.EventHandler(this.AddButtonClick);
             // 
             // _onlineGroupBox
             // 
@@ -200,7 +204,7 @@ namespace WindowsFormsApplication1
             this._todoGroupBox.Size = new System.Drawing.Size(287, 438);
             this._todoGroupBox.TabIndex = 3;
             this._todoGroupBox.TabStop = false;
-                        // 
+            // 
             // _doingGroupBox
             // 
             this._doingGroupBox.Location = new System.Drawing.Point(593, 65);
@@ -220,7 +224,7 @@ namespace WindowsFormsApplication1
             this._doneGroupBox.Size = new System.Drawing.Size(287, 438);
             this._doneGroupBox.TabIndex = 4;
             this._doneGroupBox.TabStop = false;
-                        // 
+            // 
             // _todoLabel
             // 
             this._todoLabel.AutoSize = true;
