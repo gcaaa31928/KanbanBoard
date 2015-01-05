@@ -12,39 +12,24 @@ namespace WindowsFormsApplication1
 {
     public partial class Sticky : UserControl
     {
+        private Task _task = new Task();
+        private bool _isMoving = false;
 
-        public string Title
+        private MouseEventArgs _lastMouseLocation = null;
+
+        public bool IsMoving
         {
-            get {
-                return _titleLabel.Text; 
-            }
-            set {
-                _titleLabel.Text = value; 
-            }
+            get { return _isMoving; }
         }
 
-        public string DeadLine
+        internal Task Task
         {
-            get {
-                return _deadlineLabel.Text; 
-            }
-            set {
-                _deadlineLabel.Text = value;
+            get { return _task; }
+            set { 
+                _task = value;
+                RefreshData();
             }
         }
-
-        public string Assignee
-        {
-            get { 
-                return _assigneeLabel.Text; 
-            }
-            set {
-                _assigneeLabel.Text = value; 
-            }
-        }
-        
-        private bool _isDrop = false;
-        private Point _lastMouseLocation = new Point(0,0);
 
         public Sticky()
         {
@@ -54,40 +39,50 @@ namespace WindowsFormsApplication1
             this.Focus();
         }
 
+        public Sticky(Task task)
+        {
+            InitializeComponent();
+            _task = task;
+            RefreshData();
+            //AllowDrop = true;
+            this.Focus();
+        }
 
+        public void RefreshData()
+        {
+            _titleLabel.Text = _task.Title;
+            _assigneeLabel.Text = _task.Assignee;
+            _deadlineLabel.Text = _task.Deadline;      
+        }
 
         private void Sticky_MouseMove(object sender, MouseEventArgs e)
         {
-            if (_isDrop)
+            if (this.Capture && e.Button == MouseButtons.Right)
             {
-                if (Math.Abs(_lastMouseLocation.X - e.Location.X) >= 3 && Math.Abs(_lastMouseLocation.Y - e.Location.Y) >= 3)
-                {
-                    this.Location = new Point(Location.X + e.Location.X - _lastMouseLocation.X, Location.Y + e.Location.Y - _lastMouseLocation.Y);
-                }
-
+                //DoDragDrop(ctrl, DragDropEffects.Move);//定義拖曳圖示
+                this.Top = e.Y + this.Location.Y - _lastMouseLocation.Y;
+                this.Left = e.X + this.Location.X - _lastMouseLocation.X;
             }
         }
 
         private void Sticky_MouseDown(object sender, MouseEventArgs e)
         {
-            _isDrop = true;
-            _lastMouseLocation = e.Location;
+
+            if (e.Button == MouseButtons.Right)
+            {
+                _lastMouseLocation = e;//按下時記錄位置
+            }
         }
 
         private void Sticky_MouseUp(object sender, MouseEventArgs e)
         {
-            _isDrop = false;
+            if (e.Button == MouseButtons.Right)
+            {
+            }
 
         }
 
-        private void _textlable_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        private void _deadlineLabel_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

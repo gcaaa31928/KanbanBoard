@@ -51,15 +51,14 @@
             // 
             resources.ApplyResources(this._textlable, "_textlable");
             this._textlable.BackColor = System.Drawing.Color.Transparent;
+            this._textlable.Cursor = System.Windows.Forms.Cursors.Default;
             this._textlable.Name = "_textlable";
-            this._textlable.Click += new System.EventHandler(this._textlable_Click);
             // 
             // _deadlineLabel
             // 
             resources.ApplyResources(this._deadlineLabel, "_deadlineLabel");
             this._deadlineLabel.BackColor = System.Drawing.Color.Transparent;
             this._deadlineLabel.Name = "_deadlineLabel";
-            this._deadlineLabel.Click += new System.EventHandler(this._deadlineLabel_Click);
             // 
             // Sticky
             // 
@@ -72,7 +71,7 @@
             this.Controls.Add(this._textlable);
             this.Controls.Add(this._titleLabel);
             this.Controls.Add(this._assigneeLabel);
-            this.Cursor = System.Windows.Forms.Cursors.SizeAll;
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.DoubleBuffered = true;
             this.Name = "Sticky";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Sticky_MouseDown);

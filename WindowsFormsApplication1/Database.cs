@@ -46,7 +46,24 @@ namespace WindowsFormsApplication1
             //command.ExecuteNonQuery();
             _conn.Close();
         }
-        
-        
+
+        public bool AddTask(Task task)
+        {
+            //這邊實作sql的insert，並寫入task的primeKey
+            return true;
+        }
+
+        public bool EditTask(Task task, string title, string assignee, int priority, string deadline, string description)
+        {
+            //這邊實作sql的Edit
+            return true;
+        }
+
+        public bool ChangeTaskState(Task task,TaskState newState)
+        {
+            //這邊實作sql的Edit
+            return true;
+        }
+
     }
 }

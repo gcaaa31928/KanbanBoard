@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Drawing;
 namespace WindowsFormsApplication1
 {
     partial class KanBanBoard
@@ -199,7 +200,7 @@ namespace WindowsFormsApplication1
             this._todoGroupBox.Size = new System.Drawing.Size(287, 438);
             this._todoGroupBox.TabIndex = 3;
             this._todoGroupBox.TabStop = false;
-            // 
+                        // 
             // _doingGroupBox
             // 
             this._doingGroupBox.Location = new System.Drawing.Point(593, 65);
@@ -219,7 +220,7 @@ namespace WindowsFormsApplication1
             this._doneGroupBox.Size = new System.Drawing.Size(287, 438);
             this._doneGroupBox.TabIndex = 4;
             this._doneGroupBox.TabStop = false;
-            // 
+                        // 
             // _todoLabel
             // 
             this._todoLabel.AutoSize = true;
@@ -305,7 +306,7 @@ namespace WindowsFormsApplication1
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripLabel _iDToolStripLabel;
         private System.Windows.Forms.ToolStripTextBox _idToolStripTextBox;
-        private List<Sticky> _stickies = new List<Sticky>();
+        //private List<Sticky> _stickies = new List<Sticky>();
 
 
 
