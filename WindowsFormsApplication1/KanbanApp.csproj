@@ -7,8 +7,8 @@
     <ProjectGuid>{96DAC83E-8965-4ADC-9D81-BBCC08B81C6B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WindowsFormsApplication1</RootNamespace>
-    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <RootNamespace>KanbanApp</RootNamespace>
+    <AssemblyName>KanbanApp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -56,13 +56,38 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="InputProjectNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputProjectNameForm.Designer.cs">
+      <DependentUpon>InputProjectNameForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model.cs" />
+    <Compile Include="NewTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTaskForm.Designer.cs">
+      <DependentUpon>NewTaskForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Password.cs" />
     <Compile Include="PresentationModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sticky.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sticky.Designer.cs">
+      <DependentUpon>Sticky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Task.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputProjectNameForm.resx">
+      <DependentUpon>InputProjectNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTaskForm.resx">
+      <DependentUpon>NewTaskForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -72,7 +97,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Sticky.resx">
+      <DependentUpon>Sticky.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

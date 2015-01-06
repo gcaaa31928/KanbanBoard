@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @10)" Category="CodeSchema_ProjectItem" Bounds="520.439333487491,403.996233412353,95.2313334104124,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Program.cs" Label="Program.cs" />
+    <Node Id="(@1 @15)" Category="CodeSchema_ProjectItem" Bounds="237.864666743746,155.998000077079,119.161333410412,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Properties/AssemblyInfo.cs" Label="AssemblyInfo.cs" />
+    <Node Id="(@1 @16)" Category="CodeSchema_ProjectItem" Bounds="622.920666897904,95.998000077079,130.054666743746,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Form1.Designer.cs" Label="Form1.Designer.cs" />
+    <Node Id="(@1 @17)" Category="CodeSchema_ProjectItem" Bounds="257.014666743746,387.994000231237,213.424666743746,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/InputProjectNameForm.Designer.cs" Label="InputProjectNameForm.Designer.cs" />
+    <Node Id="(@1 @18)" Category="CodeSchema_ProjectItem" Bounds="20,387.994000231237,167.014666743746,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/NewTaskForm.Designer.cs" Label="NewTaskForm.Designer.cs" />
+    <Node Id="(@1 @19)" Category="CodeSchema_ProjectItem" Bounds="40,195.998000077079,147.864666743746,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Properties/Resources.Designer.cs" Label="Resources.Designer.cs" />
+    <Node Id="(@1 @2)" Category="CodeSchema_ProjectItem" Bounds="635.847333564571,347.998233335274,93.1113334104124,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/App.config" Label="App.config" />
+    <Node Id="(@1 @20)" Category="CodeSchema_ProjectItem" Bounds="40,80,136.861333410412,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Properties/Settings.Designer.cs" Label="Settings.Designer.cs" />
+    <Node Id="(@1 @21)" Category="CodeSchema_ProjectItem" Bounds="427.026000154158,95.998000077079,125.894666743746,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Sticky.Designer.cs" Label="Sticky.Designer.cs" />
+    <Node Id="(@1 @26)" Category="CodeSchema_ProjectItem" Bounds="622.920666897904,40,95.3146667437456,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Form1.resx" Label="Form1.resx" />
+    <Node Id="(@1 @27)" Category="CodeSchema_ProjectItem" Bounds="257.014666743746,331.996000154158,178.684666743746,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/InputProjectNameForm.resx" Label="InputProjectNameForm.resx" />
+    <Node Id="(@1 @28)" Category="CodeSchema_ProjectItem" Bounds="20,331.996000154158,132.274666743746,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/NewTaskForm.resx" Label="NewTaskForm.resx" />
+    <Node Id="(@1 @31)" Category="CodeSchema_ProjectItem" Bounds="427.026000154158,40,91.1546667437457,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Sticky.resx" Label="Sticky.resx" />
+    <Node Id="(@1 @5)" Category="CodeSchema_ProjectItem" Bounds="7.105427357601E-15,463.992000308316,99.9246667437457,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Password.cs" Label="Password.cs" />
+    <Node Id="(@1 @6)" Category="CodeSchema_ProjectItem" Bounds="645.670666897904,403.996233412353,99.148000077079,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Database.cs" Label="Database.cs" />
+    <Node Id="(@1 @7)" Category="CodeSchema_ProjectItem" Bounds="728.131566668608,291.996000154158,74.6013334104124,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Task.cs" Label="Task.cs" />
+    <Node Id="(@1 @8)" Category="CodeSchema_ProjectItem" Bounds="129.924666743746,463.992000308316,147.288000077079,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/PresentationModel.cs" Label="PresentationModel.cs" />
+    <Node Id="(@1 @9)" Category="CodeSchema_ProjectItem" Bounds="520.439333487491,347.998233335274,85.408000077079,25.998000077079" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Model.cs" Label="Model.cs" />
+    <Node Id="(@1)" Category="CodeSchema_Project" Bounds="520.439333487491,291.996000154158,177.692233181116,26.0022331811163" Label="WindowsFormsApplication1" />
+    <Node Id="@12" Category="CodeSchema_ProjectItem" Bounds="237.014666743746,291.996000154158,253.424666743746,141.996000154158" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/InputProjectNameForm.cs" Group="Expanded" Label="InputProjectNameForm.cs" />
+    <Node Id="@14" Category="CodeSchema_ProjectItem" Bounds="0,291.996000154158,207.014666743746,141.996000154158" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/NewTaskForm.cs" Group="Expanded" Label="NewTaskForm.cs" />
+    <Node Id="@23" Category="CodeSchema_ProjectItem" Bounds="407.026000154158,0,165.894666743746,141.996000154158" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Sticky.cs" Group="Expanded" Label="Sticky.cs" />
+    <Node Id="@25" Category="CodeSchema_ProjectItem" Bounds="20,40,176.861333410412,85.998000077079" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Properties/Settings.settings" Group="Expanded" Label="Settings.settings" />
+    <Node Id="@30" Category="CodeSchema_ProjectItem" Bounds="20,155.998000077079,187.864666743746,85.998000077079" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Properties/Resources.resx" Group="Expanded" Label="Resources.resx" />
+    <Node Id="@33" Category="ProjectFolder" Bounds="0,0,377.026000154158,261.996000154158" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Properties/" Group="Expanded" Label="Properties">
+      <Category Ref="CodeSchema_ProjectItem" />
+    </Node>
+    <Node Id="@4" Category="CodeSchema_ProjectItem" Bounds="602.920666897904,0,170.054666743746,141.996000154158" DelayedChildNodesState="Incomplete" FilePath="$(VsSolutionUri)/WindowsFormsApplication1/Form1.cs" Group="Expanded" Label="Form1.cs" />
+  </Nodes>
+  <Links>
+    <Link Source="@12" Target="(@1 @17)" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="(@1 @27)" Category="Contains" FetchingParent="@12" />
+    <Link Source="@14" Target="(@1 @18)" Category="Contains" FetchingParent="@14" />
+    <Link Source="@14" Target="(@1 @28)" Category="Contains" FetchingParent="@14" />
+    <Link Source="@23" Target="(@1 @21)" Category="Contains" FetchingParent="@23" />
+    <Link Source="@23" Target="(@1 @31)" Category="Contains" FetchingParent="@23" />
+    <Link Source="@25" Target="(@1 @20)" Category="Contains" FetchingParent="@25" />
+    <Link Source="@30" Target="(@1 @19)" Category="Contains" FetchingParent="@30" />
+    <Link Source="@33" Target="(@1 @15)" Category="Contains" FetchingParent="@33" />
+    <Link Source="@33" Target="@25" Category="Contains" FetchingParent="@33" />
+    <Link Source="@33" Target="@30" Category="Contains" FetchingParent="@33" />
+    <Link Source="@4" Target="(@1 @16)" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="(@1 @26)" Category="Contains" FetchingParent="@4" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Project" Label="專案" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_ProjectItem" Icon="CodeSchema_Project" NavigationActionLabel="專案" />
+    <Category Id="CodeSchema_ProjectItem" Label="專案項目" BasedOn="File" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="File" NavigationActionLabel="專案項目" />
+    <Category Id="Contains" Label="包含" Description="連結的來源是否包含目標物件" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="由下列包含" IsContainment="True" OutgoingActionLabel="包含" />
+    <Category Id="File" Label="檔案" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="檔案" />
+    <Category Id="ProjectFolder" Label="專案資料夾" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" NavigationActionLabel="資料夾" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" Label="虛擬化資料" Description="如果為 true，就表示圖形可以包含代表虛擬化節點/連結 (亦即，實際上並未在圖形中建立) 之資料的節點和連結。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="延遲子節點狀態" Description="如果未指定延遲子節點狀態，則為 Unspecified。如果群組包含的子節點尚未擷取至圖形，則為 NotFetched。如果群組的所有延遲子節點己擷取，則為 Fetched。" DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="FilePath" Label="檔案路徑" Description="檔案路徑" DataType="System.String" />
+    <Property Id="Group" Label="群組" Description="將節點顯示為群組" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="圖示" Description="圖示" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="標籤" Description="可註釋物件的可顯示標籤" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="可見度" Description="定義圖形中的節點是否為可見" DataType="System.Windows.Visibility" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="組件" ValueType="Uri" />
+    <Name Id="File" Label="檔案" ValueType="Uri" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/WindowsFormsApplication1/WindowsFormsApplication1.csproj" />
+    <Alias n="2" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/App.config" />
+    <Alias n="3" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Form1.cs" />
+    <Alias n="4" Id="(@1 @3)" />
+    <Alias n="5" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Password.cs" />
+    <Alias n="6" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Database.cs" />
+    <Alias n="7" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Task.cs" />
+    <Alias n="8" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/PresentationModel.cs" />
+    <Alias n="9" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Model.cs" />
+    <Alias n="10" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Program.cs" />
+    <Alias n="11" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/InputProjectNameForm.cs" />
+    <Alias n="12" Id="(@1 @11)" />
+    <Alias n="13" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/NewTaskForm.cs" />
+    <Alias n="14" Id="(@1 @13)" />
+    <Alias n="15" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Properties/AssemblyInfo.cs" />
+    <Alias n="16" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Form1.Designer.cs" />
+    <Alias n="17" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/InputProjectNameForm.Designer.cs" />
+    <Alias n="18" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/NewTaskForm.Designer.cs" />
+    <Alias n="19" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Properties/Resources.Designer.cs" />
+    <Alias n="20" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Properties/Settings.Designer.cs" />
+    <Alias n="21" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Sticky.Designer.cs" />
+    <Alias n="22" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Sticky.cs" />
+    <Alias n="23" Id="(@1 @22)" />
+    <Alias n="24" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Properties/Settings.settings" />
+    <Alias n="25" Id="(@1 @24)" />
+    <Alias n="26" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Form1.resx" />
+    <Alias n="27" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/InputProjectNameForm.resx" />
+    <Alias n="28" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/NewTaskForm.resx" />
+    <Alias n="29" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Properties/Resources.resx" />
+    <Alias n="30" Id="(@1 @29)" />
+    <Alias n="31" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Sticky.resx" />
+    <Alias n="32" Uri="File=$(VsSolutionUri)/WindowsFormsApplication1/Properties/" />
+    <Alias n="33" Id="(@1 @32)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="結果" ValueLabel="是">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="組件" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="命名空間" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="介面" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="結構" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="列舉" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="委派" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="類別" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="屬性" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="方法" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="事件" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="欄位" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="輸出參數" ValueLabel="有分類">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="參數" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="區域變數" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="有分類">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="繼承自" ValueLabel="有分類">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="實作" ValueLabel="有分類">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="呼叫" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="函式指標" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="欄位參考" ValueLabel="有分類">
+      <Condition Expression="HasCategory('CodeSchema_FieldReference')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="是" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="是" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="是" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="是" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="是" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/GCA/Documents/Visual Studio 2013/Projects/WindowsFormsApplication1" />
+  </Paths>
+</DirectedGraph>

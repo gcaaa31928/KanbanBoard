@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{96DAC83E-8965-4ADC-9D81-BBCC08B81C6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanApp", "WindowsFormsApplication1\KanbanApp.csproj", "{96DAC83E-8965-4ADC-9D81-BBCC08B81C6B}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject2", "ModelingProject2\ModelingProject2.modelproj", "{9BEBFD43-024D-4856-ADEC-325CF0450638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +17,22 @@ Global
 		{96DAC83E-8965-4ADC-9D81-BBCC08B81C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96DAC83E-8965-4ADC-9D81-BBCC08B81C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96DAC83E-8965-4ADC-9D81-BBCC08B81C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BEBFD43-024D-4856-ADEC-325CF0450638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BEBFD43-024D-4856-ADEC-325CF0450638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BEBFD43-024D-4856-ADEC-325CF0450638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BEBFD43-024D-4856-ADEC-325CF0450638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		VSCustomBkgrdPaint = True
-		VSUseSystemFonts = False
-		VSSkinToggleButtons = True
-		VSSkinFlatStyles = True
-		VSTextShadow = True
-		VSToolStripStyle = Mixed
-		VSTargetControls = FormsAndControls
 		VSStyle = Office2010 (Silver).vssf
+		VSTargetControls = FormsAndControls
+		VSToolStripStyle = Mixed
+		VSTextShadow = True
+		VSSkinFlatStyles = True
+		VSSkinToggleButtons = True
+		VSUseSystemFonts = False
+		VSCustomBkgrdPaint = True
 	EndGlobalSection
 EndGlobal

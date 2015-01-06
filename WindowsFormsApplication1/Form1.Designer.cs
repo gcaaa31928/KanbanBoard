@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace KanbanApp
 {
     partial class KanBanBoard
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KanBanBoard));
             this._menuToolStrip = new System.Windows.Forms.ToolStrip();
             this._newProjectToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -40,9 +41,9 @@
             this._idToolStripTextBox = new System.Windows.Forms.ToolStripTextBox();
             this._memberGroupBox = new System.Windows.Forms.GroupBox();
             this._iDLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.memberTextBox = new System.Windows.Forms.TextBox();
             this._addButton = new System.Windows.Forms.Button();
-            this._onlineGroupBox = new System.Windows.Forms.GroupBox();
+            this._projectMembersGroupBox = new System.Windows.Forms.GroupBox();
             this._onlineListView = new System.Windows.Forms.ListView();
             this._todoGroupBox = new System.Windows.Forms.GroupBox();
             this._doingGroupBox = new System.Windows.Forms.GroupBox();
@@ -50,9 +51,12 @@
             this._todoLabel = new System.Windows.Forms.Label();
             this._doingLabel = new System.Windows.Forms.Label();
             this._doneLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this._projectNameLabel = new System.Windows.Forms.Label();
+            this._timer = new System.Windows.Forms.Timer(this.components);
             this._menuToolStrip.SuspendLayout();
             this._memberGroupBox.SuspendLayout();
-            this._onlineGroupBox.SuspendLayout();
+            this._projectMembersGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // _menuToolStrip
@@ -130,7 +134,7 @@
             // _memberGroupBox
             // 
             this._memberGroupBox.Controls.Add(this._iDLabel);
-            this._memberGroupBox.Controls.Add(this.textBox1);
+            this._memberGroupBox.Controls.Add(this.memberTextBox);
             this._memberGroupBox.Controls.Add(this._addButton);
             this._memberGroupBox.Location = new System.Drawing.Point(12, 28);
             this._memberGroupBox.Name = "_memberGroupBox";
@@ -148,12 +152,12 @@
             this._iDLabel.TabIndex = 2;
             this._iDLabel.Text = "ID";
             // 
-            // textBox1
+            // memberTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(58, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 2;
+            this.memberTextBox.Location = new System.Drawing.Point(58, 21);
+            this.memberTextBox.Name = "memberTextBox";
+            this.memberTextBox.Size = new System.Drawing.Size(100, 22);
+            this.memberTextBox.TabIndex = 2;
             // 
             // _addButton
             // 
@@ -165,15 +169,15 @@
             this._addButton.UseVisualStyleBackColor = true;
             this._addButton.Click += new System.EventHandler(this.AddButtonClick);
             // 
-            // _onlineGroupBox
+            // _projectMembersGroupBox
             // 
-            this._onlineGroupBox.Controls.Add(this._onlineListView);
-            this._onlineGroupBox.Location = new System.Drawing.Point(12, 121);
-            this._onlineGroupBox.Name = "_onlineGroupBox";
-            this._onlineGroupBox.Size = new System.Drawing.Size(164, 270);
-            this._onlineGroupBox.TabIndex = 2;
-            this._onlineGroupBox.TabStop = false;
-            this._onlineGroupBox.Text = "Online";
+            this._projectMembersGroupBox.Controls.Add(this._onlineListView);
+            this._projectMembersGroupBox.Location = new System.Drawing.Point(12, 121);
+            this._projectMembersGroupBox.Name = "_projectMembersGroupBox";
+            this._projectMembersGroupBox.Size = new System.Drawing.Size(164, 270);
+            this._projectMembersGroupBox.TabIndex = 2;
+            this._projectMembersGroupBox.TabStop = false;
+            this._projectMembersGroupBox.Text = "ProjectMembers";
             // 
             // _onlineListView
             // 
@@ -218,6 +222,8 @@
             this._todoLabel.Size = new System.Drawing.Size(72, 24);
             this._todoLabel.TabIndex = 5;
             this._todoLabel.Text = "TODO";
+            this._todoLabel.Click += new System.EventHandler(this._todoLabel_Click);
+            this._todoLabel.DoubleClick += new System.EventHandler(this._todoLabel_DoubleClick);
             // 
             // _doingLabel
             // 
@@ -239,28 +245,54 @@
             this._doneLabel.TabIndex = 7;
             this._doneLabel.Text = "DONE";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(445, 6);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 12);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "NowProject : ";
+            // 
+            // _projectNameLabel
+            // 
+            this._projectNameLabel.AutoSize = true;
+            this._projectNameLabel.Location = new System.Drawing.Point(519, 6);
+            this._projectNameLabel.Name = "_projectNameLabel";
+            this._projectNameLabel.Size = new System.Drawing.Size(30, 12);
+            this._projectNameLabel.TabIndex = 9;
+            this._projectNameLabel.Text = "None";
+            // 
+            // _timer
+            // 
+            this._timer.Interval = 3000;
+            this._timer.Tick += new System.EventHandler(this.TimerTick);
+            // 
             // KanBanBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(951, 414);
+            this.Controls.Add(this._projectNameLabel);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this._doneLabel);
             this.Controls.Add(this._doingLabel);
             this.Controls.Add(this._todoLabel);
             this.Controls.Add(this._doneGroupBox);
             this.Controls.Add(this._doingGroupBox);
             this.Controls.Add(this._todoGroupBox);
-            this.Controls.Add(this._onlineGroupBox);
+            this.Controls.Add(this._projectMembersGroupBox);
             this.Controls.Add(this._memberGroupBox);
             this.Controls.Add(this._menuToolStrip);
             this.Name = "KanBanBoard";
             this.Text = "KanBanBoard";
-            this.Load += new System.EventHandler(this.KanBanBoard_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.KanBanBoardClosing);
+            this.Load += new System.EventHandler(this.KanBanBoardLoad);
             this._menuToolStrip.ResumeLayout(false);
             this._menuToolStrip.PerformLayout();
             this._memberGroupBox.ResumeLayout(false);
             this._memberGroupBox.PerformLayout();
-            this._onlineGroupBox.ResumeLayout(false);
+            this._projectMembersGroupBox.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,9 +304,9 @@
         private System.Windows.Forms.ToolStripButton _newProjectToolStripButton;
         private System.Windows.Forms.GroupBox _memberGroupBox;
         private System.Windows.Forms.Label _iDLabel;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox memberTextBox;
         private System.Windows.Forms.Button _addButton;
-        private System.Windows.Forms.GroupBox _onlineGroupBox;
+        private System.Windows.Forms.GroupBox _projectMembersGroupBox;
         private System.Windows.Forms.ListView _onlineListView;
         private System.Windows.Forms.GroupBox _todoGroupBox;
         private System.Windows.Forms.GroupBox _doingGroupBox;
@@ -289,6 +321,9 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripLabel _iDToolStripLabel;
         private System.Windows.Forms.ToolStripTextBox _idToolStripTextBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label _projectNameLabel;
+        private System.Windows.Forms.Timer _timer;
 
 
 
